@@ -1,0 +1,468 @@
+body {
+    margin: 0px;
+
+}
+
+/* mainsection */
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: mainsecF;
+    src: url(../fonts/Oranienbaum/Oranienbaum-Regular.ttf);
+}
+
+@font-face {
+    font-family: gaglin;
+    src: url(../fonts/gagalin/Gagalin-Regular.otf);
+}
+
+@font-face {
+    font-family: paradise;
+    src: url(../fonts/Paradise/Paradise.otf);
+}
+
+#mainsec .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+li{
+    color: azure;
+}
+.ocean {
+    width: 100%;
+    height: 800px;
+}
+
+.mainsecA {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.50rem;
+    color: black;
+    font-family: playfair;
+}
+
+.navbarmain {
+    right: 0px;
+    position: relative;
+    box-shadow: 20%;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 9%, rgba(0,212,255,1) 49%, rgba(9,9,121,1) 87%);
+}
+
+.ring1 {
+    top: 40%;
+    left: 21%;
+    z-index: 10;
+    width: 25%;
+    position: absolute;
+}
+
+#mainsec h1 {
+    font-family: playfair;
+    color: black;
+    font-size: 2.80rem;
+    z-index: 10;
+    position: absolute;
+    top: 55%;
+    left: 28%;
+}
+.leanon{
+    margin-left: 550px;
+}
+#mainsec p {
+    font-family: playfair;
+    color: black;
+    font-size: 1.40rem;
+    z-index: 10;
+    position: absolute;
+    top: 62%;
+    left: 28%;
+}
+
+.bookingcircle {
+    top: 50%;
+    left: 79%;
+    width: 300px;
+    z-index: 9;
+    position: absolute;
+}
+
+#mainsec .h1book {
+    font-family: gaglin;
+    color: black;
+    font-size: 1.76rem;
+    line-height: 2.1rem;
+    z-index: 10;
+    position: absolute;
+    top: 59%;
+    left: 82%;
+}
+/* mobile  */
+@media(max-width:800px) {
+    #mainsec .ring1{
+        top: 35%;
+        width: 75%;
+    }
+    #mainsec h1{
+        top: 46%;
+        left: 40%;
+        font-size: 1.87rem;
+    }
+    #mainsec p{
+        top: 52%;
+        left: 40%;
+        font-size: 1rem;
+    }
+}
+/* mobile */
+/* mainsectionend */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* features Start */
+@font-face {
+    font-family: paradise;
+    src: url(../fonts/Belleza/Belleza-Regular.ttf);
+}
+
+#features {
+    background-color: #fff5ec;
+    padding: 50px;
+}
+
+.featuresimg {
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+}
+
+#features p {
+    text-align: left;
+    font-weight: lighter;
+    line-height: 1.80rem;
+}
+
+#features h1 {
+    font-family: paradise;
+    font-size: 2.80rem;
+}
+
+#features h2 {
+    font-family: paradise;
+    line-height: 3.80;
+}
+
+/* features end */
+/* start of location */
+.locationleaf {
+    width: 100%;
+    z-index: -1;
+}
+
+.leafloc {
+    position: relative;
+}
+
+.locationimg {
+    position: absolute;
+    z-index: 10;
+    padding: 30px;
+    top: 10%;
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.lover {
+    position: absolute;
+    z-index: 10;
+    padding: 30px;
+    top: 38%;
+}
+
+#location p {
+    position: absolute;
+    z-index: 10;
+    padding: 30px;
+    top: 52%;
+}
+
+/* end of location */
+
+/* start of booking */
+#booking .hotimg {
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.bookdiv {
+    position: relative;
+}
+
+.bookci {
+    position: absolute;
+    top: 20%;
+    left: 29%;
+    width: 40%;
+    right: auto;
+    opacity: 0.50;
+}
+
+.arrow1,
+.arrow2,
+.arrow3,
+.arrow4 {
+    height: 50px;
+    width: 150px;
+    z-index: 10;
+    position: absolute;
+}
+
+.arrow1 {
+    top: 30%;
+    left: 16%;
+}
+
+.arrow2 {
+    top: 40%;
+    left: 30%;
+}
+
+.arrow3 {
+    top: 51%;
+    left: 40%;
+}
+
+.arrow4 {
+    top: 63%;
+    left: 50%;
+}
+
+#booking .btn {
+    z-index: 10;
+    position: absolute;
+
+}
+
+.bali {
+    top: 31%;
+    left: 29%;
+}
+
+.swirr {
+    top: 40%;
+    left: 43%;
+}
+
+.jaa {
+    top: 52%;
+    left: 54%;
+}
+
+.goo {
+    top: 64%;
+    left: 64%;
+}
+
+/* end of booking */
+/* reviews */
+@font-face {
+    font-family: montez;
+    src: url(../fonts/TextFonts.net_sheiral-script-font/sheiral-script/Sheiral-Script.ttf);
+}
+
+#reviews {
+    text-align: center;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(225, 233, 148, 0.21060924369747902) 100%);
+    font-family: montez;
+    color: balck;
+    font-size: 2.80rem;
+    padding: 80px;
+}
+
+.cop {
+    margin-bottom: 10px;
+    border-radius: 80%;
+    width: 140px;
+    height: 140px;
+}
+
+#reviews h2 {
+    font-size: 3.80rem;
+    word-spacing: 0.80rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 80%;
+}
+
+/*  end of reviews*/
+/* start of contact pg */
+@font-face {
+    font-family: dance;
+    src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: norwester;
+    src: url(../fonts/norwester/norwester.otf);
+}
+
+@font-face {
+    font-family: dosis;
+    src: url(../fonts/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+.pine {
+    position: relative;
+}
+
+.pineimg {
+    width: 100%;
+    height: 700px;
+}
+
+#contact h1 {
+    font-family: dance;
+    top: 0%;
+    position: absolute;
+    z-index: 10;
+    left: 5%;
+    color: black;
+    font-size: 2.50rem;
+}
+
+.polyy {
+    position: absolute;
+    height: 400px;
+    top: 7%;
+    left: 30%;
+}
+
+.reachdiv {
+    position: absolute;
+    left: 38%;
+    top: 20%;
+}
+
+.reachdiv h3 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 1.80rem;
+    font-family: norwester;
+    z-index: 10;
+}
+
+#contact .p1,
+.p2,
+.p3 {
+    left: 55%;
+}
+
+#contact .p1 {
+    font-family: dosis;
+    top: 50%;
+    position: absolute;
+    line-height: 1.50rem;
+}
+
+#contact .p2 {
+    font-family: dosis;
+    top: 65%;
+    position: absolute;
+    line-height: 1.50rem;
+}
+
+#contact .p3 {
+    font-family: dosis;
+    top: 80%;
+    position: absolute;
+    line-height: 1.50rem;
+}
+
+.iconn1,
+.iconn2,
+.iconn3,
+.iconn4,
+.iconn5 {
+    height: 35px;
+    width: 35px;
+    z-index: 10;
+    position: absolute;
+    top: 95%;
+}
+
+.iconn1 {
+    left: 20%;
+}
+
+.iconn2 {
+    left: 30%;
+}
+
+.iconn3 {
+    left: 40%;
+}
+
+.iconn4 {
+    left: 50%;
+}
+
+.iconn5 {
+    top: 45%;
+    left: 35%;
+}
+
